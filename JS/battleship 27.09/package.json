@@ -1,0 +1,23 @@
+{
+  "name": "battleship-27.09",
+  "jest": {
+    "verbose": true
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "css-loader": "^6.3.0",
+    "jest": "^27.2.2",
+    "source-map-loader": "^3.0.0",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  }
+}

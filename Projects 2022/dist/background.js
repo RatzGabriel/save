@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener((()=>{let e=chrome.runtime.getURL("/options.html");chrome.tabs.create({url:e,active:!0})}));

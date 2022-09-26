@@ -1,0 +1,19 @@
+.cellDiv {
+  border: 1px solid black;
+  width: 32px;
+  height: 32px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 2rem);
+  grid-template-rows: repeat(10, 2rem);
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}

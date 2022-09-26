@@ -1,0 +1,19 @@
+.todoCard {
+  border: 1px solid black;
+  width: 50%;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.show {
+  visibility: visible;
+  transition: visibility ease-in-out 1s;
+}
+
+.hide {
+  visibility: hidden;
+  transition: opacity 3000ms ease-in-out 1s;
+}

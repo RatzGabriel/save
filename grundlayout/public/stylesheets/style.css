@@ -1,0 +1,151 @@
+body,
+html {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0c1016;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  color: #00fff1;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  background-color: red;
+  min-height: 100vh;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  main {
+    padding: 10rem 0 0 0;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    padding: 10rem 0 0 0;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    padding: 10rem 0 0 35rem;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    padding: 10rem 0 0 35rem;
+  }
+}
+main aside {
+  background-color: yellow;
+  color: black;
+}
+@media (max-width: 768px) {
+  main aside {
+    width: 100%;
+    min-height: 15rem;
+  }
+}
+@media (min-width: 768px) {
+  main aside {
+    width: 100%;
+    min-height: 15rem;
+  }
+}
+@media (min-width: 768px) {
+  main aside {
+    width: 35rem;
+    height: 100%;
+    position: fixed;
+    top: 10rem;
+    left: 0;
+    bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  main aside {
+    width: 35rem;
+    height: 100%;
+    position: fixed;
+    top: 10rem;
+    left: 0;
+    bottom: 0;
+  }
+}
+main .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+main .content .products {
+  padding: 2rem;
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+}
+@media (max-width: 768px) {
+  main .content .products {
+    grid-template-columns: auto;
+  }
+}
+@media (min-width: 768px) {
+  main .content .products {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 768px) {
+  main .content .products {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 768px) {
+  main .content .products {
+    grid-template-columns: auto auto auto;
+  }
+}
+main .content .products .product {
+  display: flex;
+  min-height: 25rem;
+  background-color: bisque;
+}
+main header {
+  width: 100%;
+  height: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(159, 159, 195);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main footer {
+  min-height: 25rem;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

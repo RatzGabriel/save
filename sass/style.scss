@@ -1,0 +1,62 @@
+$primary-color: #333;
+
+body {
+  margin:0;
+  padding:0;  
+}
+
+
+h1 {
+  color: $primary-color;
+}
+
+ul{
+  list-style: none;
+
+  li {
+    color: red;
+  }
+}
+
+//Vererbung
+%button-base {
+  border:none;
+  background-color: $primary-color;
+  color: white;
+  padding:20px 10px;
+}
+
+.button-purple {
+  @extend %button-base;
+  background-color: $primary-color;
+}
+
+.button-red {
+  @extend %button-base;
+  background-color: red;
+}
+
+
+//mixins,
+@mixin button($padding){
+  padding:$padding;
+}
+
+
+.button-super {
+  @include button(20px);
+  background-color: green;
+}
+
+// Each
+
+$sizes:20px,30px,40px;
+//TODO:test
+@each $size in $sizes {
+  .button-#{$size} {
+    border:none;
+    background-color: hotpink;
+    color: #333;
+    padding:$size;
+  }
+}

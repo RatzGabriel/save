@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="content">
+    
+    <div id="utils">
+      <button id="addProject">Add Project</button>
+      <div>
+        <form action="">
+          <label for="projectTitle"></label>
+          <input id="projectTitle" value="title" type="text" placeholder="Your new project Title">
+        </form>
+      </div>
+      <button id="addTodo">Add Todo</button>
+      <div>
+        <form action="">
+          <label for="toDoTitle"></label>
+          <input type="text" placeholder="Your new Todo Title">
+          <label for="toDoDescription"></label>
+          <input type="text" placeholder="Your new Todo Description">
+          <label for="toDoDueDate"></label>
+          <input type="text" placeholder="Your new Todo Due Date">
+          <label for="toDoPrioritie"></label>
+          <input type="text" placeholder="Your new Todo Prioritie">
+          <label for="toDoNotes"></label>
+          <input type="text" placeholder="Your new Todo Notes">
+        </form>
+      </div>
+    </div>
+    <div id="nav" class="hide">
+      <nav>
+        <ul>
+          <li>Item1</li>
+          <li>Item2</li>
+          <li>Item3</li>
+        </ul>
+      </nav>
+    </div>
+    <div id="projects"></div>
+    <div id="todos"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
